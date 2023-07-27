@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Nunito:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0F0F0F;
+}
+.anchor {
+    display: block;
+    position: relative;
+    top: -30vh;
+    visibility: hidden;
+}
+ul {
+    list-style-type: none;
+    font-family: 'Nunito';
+    font-size: calc(24px + 16 * ((100vw - 600px) / 600));
+    text-align: center;
+}
+.navbar {
+    background-color: #0F0F0F;
+    width: 100%;
+    padding: 2vw;
+    position: fixed;
+    top: 0;
+}
+.navbar a:hover {
+    background-image: url(hover-effect.jpg);
+    background-size: 300px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+li {
+    display: inline;
+    margin: 0rem 1rem;
+    margin-top: 100px;
+}
+a {
+    text-decoration: none;
+    color: #F0F0F0;
+    font-weight: 500;   
+}
+
+p {
+    font-family: 'Nunito';
+    color: #F0F0F0;
+    padding: 1vw;
+    padding-top: 3vw;
+}
+
+.section {
+    font-size: calc(16px + 8 * ((100vw - 600px) / 600));
+    margin: 10vw 1vw;
+    padding: 2vw;
+    border-radius: 10px;
+}
+
+.index-content {
+    margin: 5vw;
+    padding-top: 3vw;
+}
+
+.index-content h2 {
+    color: #F0F0F0;
+    font-size: 4vw;
+    font-family: 'Nunito';
+    float: left;
+    padding: 0 3rem;
+    margin: -6vw 0 0 0.5vw;
+    border-radius: 10px;
+}
+
+.page-content {
+    margin: 5vw;
+    padding-top: 5vw;
+    font-family: 'Nunito';
+    color: #F0F0F0;
+}
+
+#profile {
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.5rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+
+#profile h2 {
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.5rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+
+
+#work {
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF3FE7, 0 0 0.8rem #FF3FE7, 0 0 2.5rem #FF3FE7, inset 0 0 1.3rem #FF3FE7;
+}
+
+#work h2 {
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF3FE7, 0 0 0.8rem #FF3FE7, 0 0 2.5rem #FF3FE7, inset 0 0 1.3rem #FF3FE7;
+}
+
+#skills {
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF378D, 0 0 0.8rem #FF378D, 0 0 2.5rem #FF378D, inset 0 0 1.3rem #FF378D;
+}
+
+    #skills h2 {
+        box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF378D, 0 0 0.8rem #FF378D, 0 0 2.5rem #FF378D, inset 0 0 1.3rem #FF378D;
+    }
+
+#school {
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF4C37, 0 0 0.8rem #FF4C37, 0 0 2.5rem #FF4C37, inset 0 0 1.3rem #FF4C37;
+}
+
+    #school h2 {
+        box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF4C37, 0 0 0.8rem #FF4C37, 0 0 2.5rem #FF4C37, inset 0 0 1.3rem #FF4C37;
+    }
+
+#projects {
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF8C4F, 0 0 0.8rem #FF8C4F, 0 0 2.5rem #FF8C4F, inset 0 0 1.3rem #FF8C4F;
+}
+
+#projects h2 {
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF8C4F, 0 0 0.8rem #FF8C4F, 0 0 2.5rem #FF8C4F, inset 0 0 1.3rem #FF8C4F;
+}
+
+.links a {
+    padding: 2vw;
+    margin: auto;
+    font-family: 'Nunito';
+    font-size: calc(16px + 8 * ((100vw - 600px) / 600));
+    background-color: #FF8C4F;
+    color: #0F0F0F;
+    margin-top: 2vw;
+    border-radius: 1vw;
+}
+
+.links {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.links a:hover {
+    background-color: #F0F0F0;
+}
+
+.doc-links a {
+    padding: 2vw;
+    margin: 1vw;
+    font-family: 'Nunito';
+    font-size: calc(16px + 8 * ((100vw - 600px) / 600));
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF8C4F, 0 0 0.8rem #FF8C4F, 0 0 2.5rem #FF8C4F, inset 0 0 1.3rem #FF8C4F;
+    color: #F0F0F0;
+    margin-top: 2vw;
+    border-radius: 1vw;
+}
+
+.doc-links {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.doc-links a:hover {
+    background-color: #F0F0F0;
+    color: #0F0F0F;
+}
+
+.page-content h1 {
+    font-size: calc(24px + 24 * ((100vw - 600px) / 600));
+    font-family: 'Nunito';
+    color: #F0F0F0;
+    text-shadow: 0 0 5px #FF8C4F, 0 0 10px #FF8C4F, 0 0 24px #FF8C4F;
+}
+
+.page-content p {
+    font-size: calc(16px + 8 * ((100vw - 600px) / 600));
+}
+
+.page-content h2 {
+    font-size: calc(16px + 16 * ((100vw - 600px) / 600));
+}
+
+.page-content img {
+    margin: 2vw auto;
+    display: block;
+    width: 70%;
+    height: auto;
+}
