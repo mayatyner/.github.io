@@ -48,7 +48,7 @@ p {
 }
 
 .section {
-    font-size: calc(16px + 8 * ((100vw - 600px) / 600));
+    font-size: calc(20px + 8 * ((100vw - 600px) / 600));
     margin: 10vw 1vw;
     padding: 2vw;
     border-radius: 10px;
@@ -121,7 +121,7 @@ p {
     padding: 2vw;
     margin: auto;
     font-family: 'Nunito';
-    font-size: calc(16px + 8 * ((100vw - 600px) / 600));
+    font-size: calc(20px + 8 * ((100vw - 600px) / 600));
     background-color: #FF8C4F;
     color: #0F0F0F;
     margin-top: 2vw;
@@ -144,7 +144,7 @@ p {
     padding: 2vw;
     margin: 1vw;
     font-family: 'Nunito';
-    font-size: calc(16px + 8 * ((100vw - 600px) / 600));
+    font-size: calc(20px + 8 * ((100vw - 600px) / 600));
     box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF8C4F, 0 0 0.8rem #FF8C4F, 0 0 2.5rem #FF8C4F, inset 0 0 1.3rem #FF8C4F;
     color: #F0F0F0;
     margin-top: 2vw;
@@ -172,7 +172,7 @@ p {
 }
 
 .page-content p {
-    font-size: calc(16px + 8 * ((100vw - 600px) / 600));
+    font-size: calc(20px + 8 * ((100vw - 600px) / 600));
 }
 
 .page-content h2 {
