@@ -23,12 +23,7 @@ ul {
     position: fixed;
     top: 0;
 }
-.navbar a:hover {
-    background-image: url(hover-effect.jpg);
-    background-size: 300px;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 li {
     display: inline;
     margin: 0rem 1rem;
@@ -76,6 +71,26 @@ p {
     color: #F0F0F0;
 }
 
+#PR a:hover {
+    color: #bc13fe;
+}
+
+#WO a:hover {
+    color: #FF3FE7;
+}
+
+#SK a:hover {
+    color: #FF378D;
+}
+
+#SC a:hover {
+    color: #FF4C37;
+}
+
+#PO a:hover {
+    color: #FF8C4F;
+}
+
 #profile {
     box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.5rem #bc13fe, inset 0 0 1.3rem #bc13fe;
 }
@@ -105,9 +120,9 @@ p {
     box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF4C37, 0 0 0.8rem #FF4C37, 0 0 2.5rem #FF4C37, inset 0 0 1.3rem #FF4C37;
 }
 
-    #school h2 {
-        box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF4C37, 0 0 0.8rem #FF4C37, 0 0 2.5rem #FF4C37, inset 0 0 1.3rem #FF4C37;
-    }
+#school h2 {
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF4C37, 0 0 0.8rem #FF4C37, 0 0 2.5rem #FF4C37, inset 0 0 1.3rem #FF4C37;
+}
 
 #projects {
     box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #FF8C4F, 0 0 0.8rem #FF8C4F, 0 0 2.5rem #FF8C4F, inset 0 0 1.3rem #FF8C4F;
